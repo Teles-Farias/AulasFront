@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+body {
+
+    background-color:darkseagreen;
+    font-family: 'Aldrich', sans-serif;
+    width: 600px;
+    padding: 10px 50px;
+    height: 900px;
+    background-image: url(full-stacker2.jpg);
+    background-size:cover;
+   
+}
+h1{
+    text-align: left;
+    color: rgb(66, 60, 60);
+    font-family: 'Aldrich';
+
+}
+h2{
+    text-align:left;
+    
+}
+a{
+    color: rgb(77, 30, 206);
+    font-family: 'Aldrich';
+}
