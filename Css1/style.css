@@ -4,7 +4,6 @@ body {
 
     background-color:darkseagreen;
     font-family: 'Aldrich', sans-serif;
-    width: 600px;
     padding: 10px 50px;
     height: 900px;
     background-image: url(full-stacker2.jpg);
@@ -12,16 +11,15 @@ body {
    
 }
 h1{
-    text-align: left;
+    text-align:center;
     color: rgb(66, 60, 60);
     font-family: 'Aldrich';
 
 }
-h2{
-    text-align:left;
-    
-}
-a{
-    color: rgb(77, 30, 206);
-    font-family: 'Aldrich';
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
 }
