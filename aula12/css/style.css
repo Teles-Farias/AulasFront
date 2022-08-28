@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    
+}
+img*{
+    max-width: 100%;
+}
+
+top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    background: #222222;
+    
+}
+.Prince{
+    display: flex;
+    width: 36px; 
+    font-size: 10px;
+    line-height: 12px;
+    color: #f3f3f3;    
+    margin-top: 5px;
+    padding-left: 20%;
+}
+
+.Spanish{
+    display: flex;
+    width: 46px;
+    height: 12px;
+    font-size: 10px;
+    line-height: 12px;
+    color: #f3f3f3;
+    margin-top: 5px; 
+}
+.icones{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.gran{
+    display: flex;
+    width: 160px;
+    height: 12px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #F3F3F3;
+   align-items: center;
+   margin-left: 90px;
+    
+}
+
+    
+
+    
+.box{
+    width: 100%;
+    height: 62px;
+    display: flex;
+    background: #F0A83E;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 40px;
+}
+.header-logo{
+    display: flex;
+    position: sticky;
+    align-items: center;
+}
+.header-logo a h1{
+    color:#3C2313;
+    font-size: 1.25rem;
+}
+.header-logo a h1 span{
+    color: white;   
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    
+}
+.menu-header li a{
+    display: inline-block;
+    padding: 5px;
+    color: #f3f3f3; 
+}
+.paw{
+    display: none;
+}
+.home-continer{
+    width: 100%;
+    height: 409px;
+    background-image: url(fundo.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bg-text{
+    max-width: 368px;
+    height: 148px;
+    align-items: center;
+    margin-right: 12px;
+    text-align: center;
+    color: #3C2313;
+}
+.bg-text p.title {
+    text-align: center;
+    background: #f3f3f3;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px 28px;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+.btn-home{
+    background-color: #F0A83E;
+    color: #f3f3f3;
+    display: inline-block;
+    padding: 15px 17px;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+.comedouro{
+    color: #3C2313;
+    font-size: 16px;
+    font-weight: 400;
+}
+#Categorias{
+    text-align: center;
+    margin-bottom: 78px;
+}
+
+
+.produtos-container{
+    text-align: center;
+    margin-bottom: 78px;
+    
+}
+
+
+.produtos-top h2{
+    color: #3C2313;
+    margin-bottom: 15px;
+    font-size: 40px;
+   
+}
+.links a{
+    color: #666666;
+    display: inline-block;
+    padding: 5px;    
+    margin-left: 5px;
+}
+.cards{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 834px;
+    margin: 49px auto 0px auto;
+}
+
+.chu p{
+    color: #3C2313;
+    font-size: 15px;
+}
+.preço{
+    color: #F0A83E;
+}
+.come p{
+    color: #3C2313;
+    font-size: 15px;
+}
+.comedouro1{
+    color: #F0A83E;
+}
+.hues p{
+    color: #3C2313;
+    font-size: 15px;
+}
+.osso{
+    color: #F0A83E;
+}
+.contatos{
+    width: 340px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+form.contatos h2{
+    color: #3C2313;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+form.contatos input{
+    width: 100%;
+    background: #3C2313;
+    border: none;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 15px 14px;
+    margin: 5px 0;
+    color: #ffffff;
+}
+.form-button{
+    margin-top: 49px;
+}
+.form-button button:first-child{
+    color: #f3f3f3;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 30px;
+    background: #666666;
+}
+.form-button button:last-child{
+    padding: 8px 30px;
+    color: #f3f3f3;
+    border-radius: 15px;
+    border: none;
+    background: #F0A83E;
+}
+.subs{
+    background: #F0A83E;
+    width: 100%;
+    padding: 10px 23px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 95px auto 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.subs div{
+    display: flex;
+    align-items: center;
+}
+.subs div p{
+    margin-left: 10px;
+    color: #f3f3f3;
+    font-weight: bold;
+}
+
+.subs form{
+    width: 346px;
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+}
+
+.subs form input{
+    width: 271px;
+    padding: 15px 8px;
+    border-radius: 15px;
+    border: none;
+}
+
+.subs form button{
+    margin-left: 5px;
+    padding: 12px 22px;
+    border-radius: 15px;
+    background:#3C2313;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background: #3C2313;
+}
+.box-end{
+    display: flex;
+    height: 301px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.Phone{
+    display: flex;
+    flex-direction: column;
+    height: 66px;
+    flex-wrap: wrap;
+    max-width: 199px;
+    margin: 20px 0px;
+}
+.title-contact{
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Phone span{
+    color:     #8A8787;
+    font-size:10px;
+}
+.da{
+    padding: 10px;
+}
+.Correo{
+    display: flex;
+    flex-direction: column;
+    height: 66px;
+    flex-wrap: wrap;
+    max-width: 199px;
+    margin: 20px 0px;
+}
+.Correo span{
+    color:     #8A8787;
+    font-size:10px;
+}
+
+.title-contact1{
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 20px;
+}
+.de{
+    padding: 10px;
+}
+.localização{
+    display: flex;
+    flex-direction: column;
+    height: 66px;
+    flex-wrap: wrap;
+    max-width: 199px;
+    margin: 20px 0px;
+}
+.localização span{
+    color:     #8A8787;
+    font-size:10px;
+}
+.title-contact2{
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 20px;
+}
+.di{
+    padding: 10px;
+}
+.logo-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo-footer span span{
+    color: #f0a83e;
+}
+.direitos{
+    width: 100%;
+    background: #222222;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: .625rem;
+    padding: 4px 0px;
+}
