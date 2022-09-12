@@ -8,6 +8,11 @@
     box-sizing: border-box; 
 
 }
+:root{
+    --primary-color: #000;
+    --secondary-color:#f2f2f2;
+    --decoration-color:#8d7831;
+   }
 
 body{
     margin: 0;
@@ -26,18 +31,28 @@ body{
     font-family: Aldrich;
     padding: 20px;
     text-transform: uppercase;
-    color: black;
+    color: var(--primary-color);
+    justify-content: center;
 }
 nav{
-    position: relative;
-    font-family: Aldrich;
-    margin-left: 3%;
-    font-size: 2rem;
-    
-    
-    
+display: flex;
+flex-wrap: wrap;
+
+}
+ 
+li a{
+    display: flex;
+    color:darkblue;
+    font-size: 20px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
     
 }
+li:hover{
+    transform: scale(1.2)
+}
+
 
 @media (max-width: 480px){
     .cont{
