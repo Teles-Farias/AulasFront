@@ -79,6 +79,7 @@ nav ul li a::before{
     background: var(--primary-color);
     padding: 10px 15px;
     text-decoration: none;
+    transition: .5s;
     /* transition: ; */
 }
 
@@ -89,8 +90,9 @@ nav ul li a::before{
 .social ul li .icon-mail {background: #666666;}
 
 .social ul li a:hover{
-    transform:scaleX(2);
-    transition: .5s;
+    padding-left: 50px;
+    padding-right: 50px;    
+    background: #000;
     
 }
 
